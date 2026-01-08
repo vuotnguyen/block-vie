@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Block Vie",
+    "slug": "block-vie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "vcdv1",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1D0E3F",
+      "dark": {
+        "image": "./assets/images/logo.png",
+        "backgroundColor": "#1D0E3F"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.VCDgr.V1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundImage": "./assets/images/logo.png",
+        "monochromeImage": "./assets/images/logo.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.VCDgr.V1"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7141c6fa-f451-40bc-bdda-bdb5ecf7cf3d"
+      }
+    },
+    "owner": "vuotnv",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/7141c6fa-f451-40bc-bdda-bdb5ecf7cf3d"
+    }
+  }
+}
